@@ -1,0 +1,19 @@
+.homePage {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  
+  &__title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+  }
+}
